@@ -1,3 +1,4 @@
+**Check out the live version of this project hosted on Github Pages**: https://azra-2003.github.io/Tamatie-Time/ 
 **Welcome to Tamatie Time**🍅
 
 Tamatie Time is not just your ordinary Pomodoro timer - it's a unique spin on productivity with a touch of creativity and serenity. 
