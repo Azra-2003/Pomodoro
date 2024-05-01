@@ -1,0 +1,125 @@
+body {
+    background-image: url('ripening-tomatoes.jpg'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    
+}
+
+
+body, html {
+    color: rgb(4, 0, 0);
+    background: url('ripening-tomatoes.jpg');
+    max-width: 100%;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    background-size:cover;
+}
+#timer {
+    font-size: 36px;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1; 
+} 
+
+#tomato-container {
+    position: relative;
+    text-align: center;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+} 
+
+#tomato {
+    width: 300px; 
+    transition: opacity 0.5s ease;
+    display: block;
+    margin:0 auto;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center; /* Center the buttons */
+    margin-top: 20px; 
+}
+
+.button-container button {
+    background-color: #e12200; /* matching Tomato red */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px #060606(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+  }
+  
+  .button-container button:hover {
+    background-color: #bf1d00; /* Darker red on hover */
+  }
+  
+  .button-container button:focus {
+    outline: none;
+  }
+  
+  #pauseButton {
+    background-color: #3498db; /* Blue */
+  }
+  
+  #pauseButton:hover {
+    background-color: #2980b9; /* Darker blue on hover */
+  }
+
+  #notepad-container {
+    text-align: center;
+    margin-top: 20px; 
+  }
+  
+  #notepad {
+    width: 500px; 
+    margin: 0 auto; 
+    font-family: 'Calibri', sans-serif; /* Change font family */
+  }
+  
+  #taskInput {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 20px; /* Adjust font size */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  #addTaskButton {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px; /* Adjust font size */
+  }
+  
+  #taskList {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    font-size: 20px; /* Adjust font size */
+    margin-bottom: 5px;
+    padding: 10px;
+    background-color: #4CAF50; /*matching green as above */
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  

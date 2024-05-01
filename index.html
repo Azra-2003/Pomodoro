@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tamatie-Time</title>
+  <link rel="icon" href="tomato.png" type="tomato image">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body style="background-color: rgb(249, 246, 246);">
+  <audio id="startSound" src="multi-pop-1-188165.mp3"></audio>
+  <audio id="endSound" src="multi-pop-1-188165.mp3"></audio>
+  <div id="tomato-container">
+    <img id="tomato" src="—Pngtree—tomato vector_5008297.png" alt="Tomato" />
+    <div id="timer">25:00</div>
+  </div>
+  <div class="button-container">
+    <button id="startButton">Start</button>
+    <button id="pauseButton">Pause</button>
+  </div>
+
+  <!--Task section-->
+  <div id="notepad">
+    <textarea id="taskInput" placeholder="Write your tasks here..."></textarea>
+    <button id="addTaskButton">Add Task</button>
+    <ul id="taskList"></ul>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
