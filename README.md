@@ -3,6 +3,7 @@
 **Welcome to Tamatie Time**🍅
 
 Tamatie Time is not just your ordinary Pomodoro timer - it's a unique spin on productivity with a touch of creativity and serenity. 
+It embraces a minimalist approach to productivity, prioritising simplicity and ease of use.
 Embracing the beauty of the Afrikaans language, Tamatie Time, named after the Afrikaans word for tomato, brings a fresh perspective to time management.
 
 **Features:**
