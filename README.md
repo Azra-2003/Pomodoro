@@ -1,4 +1,4 @@
-# Check out the live version of this project hosted on Github Pages**: https://azra-2003.github.io/Tamatie-Time/ 
+# Check out the live version of this project hosted on Github Pages: https://azra-2003.github.io/Tamatie-Time/ 
 
 **Welcome to Tamatie Time**🍅
 
